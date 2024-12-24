@@ -1,0 +1,33 @@
+# File Descriptions
+game_loopy_and_state.py 
+- This file contains the main looping script for the game, as well as handles 
+updating the game state.
+
+printing_utility.py
+- This file contains the script that prints the game state out to the terminal.
+
+
+# Developer Update History
+Alif 12/23/24 20:14
+- Developed the Tic_Tac_Toe class in the game_loop_and_state.py file, which contains the 
+remove_from_the_flattened_vector_of_positions(...) method, an internal method which
+takes care of removing elements from an internal state array, 
+the looping_game_logic(...) method, in which all other methods are called, and 
+the determine_final_game_state(...), which is yet to be implemented.
+- Created the printing_utility.py file, which houses the 
+array_to_terminal_output(...) method, which is used to display the state of the
+board to the terminal (Work_In_Progress)
+
+Alif 12/23/24 20:44
+- Implemented the determine_final_game_state(...) method, which determines the
+outcome of the game
+- Created a CPU that flattens out all the positions of the array, and puts its
+character at the first available position on that array
+- Finished up the array_to_terminal_output(...) method, so that it faithfully
+displays each turn of TicTacToe.
+
+# Version History
+v1.0 - Minimum Viable Project
+- Allows users to play a game of TicTacToe by running game_loop_and_state.py
+- Added a CPU that picks the leftmost available position in the first row that,
+going from top to bottom, that hasn't been filled.
