@@ -26,6 +26,9 @@ character at the first available position on that array
 - Finished up the array_to_terminal_output(...) method, so that it faithfully
 displays each turn of TicTacToe.
 
+Alif 12/23/24 21:03
+- Pushed the contents of v1.0 of this project onto Github
+
 # Version History
 v1.0 - Minimum Viable Project
 - Allows users to play a game of TicTacToe by running game_loop_and_state.py
